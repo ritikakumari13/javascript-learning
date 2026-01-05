@@ -55,4 +55,8 @@ console.log(document.querySelector("div").children);
 let div = document.querySelector("div");
 console.dir(div);
 
-// text.con
+// text.co
+
+console.dir(document.getElementById("demo").textContent);
+console.dir(document.getElementById("demo").innerText);
+console.dir(document.getElementById("demo").innerHTML);
