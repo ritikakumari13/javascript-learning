@@ -38,4 +38,21 @@ console.dir(headingClassAll);
 console.log(headingClassAll);
 
 let idElement = document.querySelector("#heading2");
-console.dir(idElement)
+console.dir(idElement);
+
+// DOM manipulation: Properties
+
+// tagName : returns tag for element nodes
+console.log(heading.tagName);
+
+// innerText : return the text content of the element and all its children
+console.dir(document.body.firstChild); // return '#text' node
+console.dir(document.body.lastChild);
+
+console.log(document.querySelector("div"));
+console.log(document.querySelector("div").children);
+
+let div = document.querySelector("div");
+console.dir(div);
+
+// text.con
