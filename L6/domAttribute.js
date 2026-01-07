@@ -24,4 +24,31 @@ console.log(para.setAttribute("class","new-para"));
 
 div.style.backgroundColor = "purple";
 div.style.fontSize = "30px";
-div.style.visibility = "hidden";
+// div.style.visibility = "hidden";
+
+// insert elements
+
+let newbtn = document.createElement("button");
+newbtn.innerText = "click me";
+
+// node.append(el) : adds at end of node(inside)
+// div.append(newbtn);
+
+// node.prepend(el): adds element at the start of node(inside)
+// div.prepend(newbtn);
+
+// node.before(el): adds element just before the node (outside)
+// div.before(newbtn);
+
+// node.before(el): adds element just before the node (outside)
+para.after(newbtn);
+
+let heading1 = document.createElement("h1");
+heading1.innerHTML = "<i>Hello, I am new!</i>";
+
+document.querySelector("body").prepend(heading1);
+
+// delete
+// node.remove() : removes the node
+
+para.remove();
